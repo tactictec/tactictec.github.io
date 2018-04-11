@@ -1,0 +1,41 @@
+body { 
+	background-color: #fff;
+}
+body > header > h1 { 
+	display: none;
+}
+
+body > main > .menu-block { 
+	background-color: #222; 
+	color: #EBEFF8; 
+	padding: 8px;
+	float: right;
+	margin-right: 80px;
+	margin-top: 40px;
+}
+body > main > .menu-block p { 
+	font-weight: bold; 
+	font-family: Calibri, Helvetica, sans-serif; 
+	font-size: 150%;
+	padding: 5px;
+	margin: 8px;
+}
+
+body > main > .menu-block a , body > main > .menu-block a:visited {
+	color: #C2D1E8;
+	text-decoration: none;
+}
+body > main > .menu-block a:active, body > main > .menu-block a:hover, body > main > .menu-block a:visited:hover {
+	color: #EBEFF8;
+}
+
+body > * { 
+	display: block;
+	margin: 0 auto;
+	width: 830px;
+}
+
+.label {
+	display: inline-block;
+	min-width: 150px;
+}
